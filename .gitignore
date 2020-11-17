@@ -10,3 +10,6 @@ artifacts
 /storybook-static/
 .vscode
 yarn.lock
+.bigtest
+.cache
+dist

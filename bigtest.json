@@ -1,0 +1,16 @@
+{
+  "port": 24000,
+  "launch": [
+    "chrome.headless"
+  ],
+  "app": {
+    "command": "yarn parcel serve test/harness/index.html",
+    "env": {
+      "PORT": 28000
+    },
+    "url": "http://localhost:28000"
+  },
+  "testFiles": [
+    "test/**/*.test.{ts,js}"
+  ]
+}
