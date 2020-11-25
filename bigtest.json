@@ -11,6 +11,6 @@
     "url": "http://localhost:28000"
   },
   "testFiles": [
-    "test/**/*.test.{ts,js}"
+    "test/**/*.test.{ts,js,jsx}"
   ]
 }
