@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import { bigtestGlobals } from 'bigtest';
 
-export function Mount(name, element) {
+export function Mount(element) {
   return {
     description(`Mount Component ${element.type}`),
     action: async () => new Promise(resolve => {
